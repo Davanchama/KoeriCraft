@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "koeri:item/koeri_powder_four"
+  }
+}

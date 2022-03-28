@@ -1,29 +1,31 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "koeri",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "KoeriCraft",
+  "description": "A mod that introduces Koeri as a new flavour. No one knows which effects this strange substance has.",
   "authors": [
-    "Me!"
+    "Davanchama"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://localhost",
+    "sources": "https://github.com/Davanchama/KoeriCraft"
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/koeri/icon.png",
 
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "com.davanchama.koericraft.KoeriCraft"
+    ],
+    "client": [
+      "com.davanchama.koericraft.KoeriClient"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
