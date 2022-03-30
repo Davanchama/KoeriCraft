@@ -6,8 +6,7 @@ import net.fabricmc.api.ClientModInitializer;
 public class KoeriClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        /**
         BlockRenderUtil renderer = new BlockRenderUtil();
-        renderer.defineRenders();*/
+        renderer.defineRenders();
     }
 }

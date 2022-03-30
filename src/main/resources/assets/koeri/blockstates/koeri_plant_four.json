@@ -1,28 +1,28 @@
 {
   "variants": {
     "age=0": {
-      "model": "koeri:block/koeri_plant_one_stage_2"
+      "model": "koeri:block/koeri_plant_four_stage_1"
     },
     "age=1": {
-      "model": "koeri:block/koeri_plant_one_stage_2"
+      "model": "koeri:block/koeri_plant_four_stage_2"
     },
     "age=2": {
-      "model": "koeri:block/koeri_plant_one_stage_3"
+      "model": "koeri:block/koeri_plant_four_stage_2"
     },
     "age=3": {
-      "model": "koeri:block/koeri_plant_one_stage_3"
+      "model": "koeri:block/koeri_plant_four_stage_3"
     },
     "age=4": {
-      "model": "koeri:block/koeri_plant_one_stage_4"
+      "model": "koeri:block/koeri_plant_four_stage_3"
     },
     "age=5": {
-      "model": "koeri:block/koeri_plant_one_stage_4"
+      "model": "koeri:block/koeri_plant_four_stage_4"
     },
     "age=6": {
-      "model": "koeri:block/koeri_plant_one_stage_5"
+      "model": "koeri:block/koeri_plant_four_stage_4"
     },
     "age=7": {
-      "model": "koeri:block/koeri_plant_one_stage_6"
+      "model": "koeri:block/koeri_plant_four_stage_5"
     }
   }
 }

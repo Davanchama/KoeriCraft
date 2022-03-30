@@ -1,0 +1,6 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "koeri:block/koeri_plant_three_stage_5"
+  }
+}

@@ -7,7 +7,11 @@ import net.minecraft.client.render.RenderLayer;
 public class BlockRenderUtil {
 
     public void defineRenders() {
-        //InitBlocks blocks = new InitBlocks();
-        //BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutoutMipped(), blocks.koeriPlantOne);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), InitBlocks.INSTANCE.koeriPlantOne);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), InitBlocks.INSTANCE.koeriPlantTwo);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), InitBlocks.INSTANCE.koeriPlantThree);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), InitBlocks.INSTANCE.koeriPlantFour);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), InitBlocks.INSTANCE.koeriPlantFive);
+        BlockRenderLayerMap.INSTANCE.putBlocks(RenderLayer.getCutout(), InitBlocks.INSTANCE.koeriPlantSix);
     }
 }

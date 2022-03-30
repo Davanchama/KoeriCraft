@@ -15,18 +15,19 @@ import net.minecraft.util.registry.Registry;
  */
 public class InitItems {
 
+    public static InitItems INSTANCE = new InitItems();
+
     /**
      * Registers the items of KoeriCraft.
      */
     public void registerItems() {
         // registers six different koeri powders
-        Registry.register(Registry.ITEM, new Identifier("koeri", "koeri_powder_one"), new KoeriPowderOne());
-        Registry.register(Registry.ITEM, new Identifier("koeri", "koeri_powder_two"), new KoeriPowderTwo());
-        Registry.register(Registry.ITEM, new Identifier("koeri", "koeri_powder_three"), new KoeriPowderThree());
-        Registry.register(Registry.ITEM, new Identifier("koeri", "koeri_powder_four"), new KoeriPowderFour());
-        Registry.register(Registry.ITEM, new Identifier("koeri", "koeri_powder_five"), new KoeriPowderFive());
-        Registry.register(Registry.ITEM, new Identifier("koeri", "koeri_powder_six"), new KoeriPowderSix());
+        Registry.register(Registry.ITEM, new Identifier(KoeriCraft.MOD_ID, "koeri_powder_one"), new KoeriPowderOne());
+        Registry.register(Registry.ITEM, new Identifier(KoeriCraft.MOD_ID, "koeri_powder_two"), new KoeriPowderTwo());
+        Registry.register(Registry.ITEM, new Identifier(KoeriCraft.MOD_ID, "koeri_powder_three"), new KoeriPowderThree());
+        Registry.register(Registry.ITEM, new Identifier(KoeriCraft.MOD_ID, "koeri_powder_four"), new KoeriPowderFour());
+        Registry.register(Registry.ITEM, new Identifier(KoeriCraft.MOD_ID, "koeri_powder_five"), new KoeriPowderFive());
+        Registry.register(Registry.ITEM, new Identifier(KoeriCraft.MOD_ID, "koeri_powder_six"), new KoeriPowderSix());
 
-        //Registry.register(Registry.ITEM, new Identifier(KoeriCraft.MOD_ID, "koeri_plant_one_seeds"), new KoeriSeed(new InitBlocks().koeriPlantOne, new Item.Settings().group(ItemGroup.FOOD)));
     }
 }

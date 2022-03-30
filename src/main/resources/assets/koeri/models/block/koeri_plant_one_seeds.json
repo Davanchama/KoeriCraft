@@ -1,6 +1,0 @@
-{
-  "parent": "block/cross",
-  "textures": {
-    "cross": "koeri:block/koeri_plant_one_seeds"
-  }
-}
