@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "# #",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "koeri:koeri_powder_one"
+    }
+  },
+  "result": {
+    "item": "koeri:koeri_powder_two",
+    "count": 1
+  },
+  "group": "koeri"
+}
